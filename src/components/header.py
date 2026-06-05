@@ -1,36 +1,27 @@
 import streamlit as st
-from src.components.header import header_home
-from src.components.footer import footer_home
-from src.ui.base_layout import style_base_layout, style_background_home
 
-def home_screen():
 
-    header_home()
-    style_background_home()
-    style_base_layout()
+def header_home():
 
-    col1, col2 = st.columns(2, gap="large")
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    
+    st.markdown(f"""
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px">
+            <img src='{logo_url}' style='height:100px;' />
+            <h1 style='text-align:center; color:#E0E3FF'>SNAP<br/>CLASS</h1>
+        </div>   
+                
+                """, unsafe_allow_html=True)
 
-    with col1:
-        st.header("I'm Student")
-        st.image(
-            "https://i.ibb.co/844D9Lrt/mascot-student.png",
-            width=120
-        )
 
-        if st.button('Student Portal', type='primary'):
-            st.session_state['login_type'] = 'student'
-            st.rerun()
+def header_dashboard():
 
-    with col2:
-        st.header("I'm Teacher")
-        st.image(
-            "https://i.ibb.co/CsmQQV6X/mascot-prof.png",
-            width=145
-        )
-
-        if st.button('Teacher Portal', type='primary'):
-            st.session_state['login_type'] = 'teacher'
-            st.rerun()
-
-    footer_home()
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    
+    st.markdown(f"""
+        <div style="display:flex; align-items:center; justify-content:center; gap:10px">
+            <img src='{logo_url}' style='height:85px;' />
+            <h2 style='text-align:left; color:#5865F2'>SNAP<br/>CLASS</h1>
+        </div>   
+                
+                """, unsafe_allow_html=True)
