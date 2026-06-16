@@ -122,35 +122,3 @@ SnapClass/
 └── app.py # Main entry point
 
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/snapclass.git
-cd snapclass
-2. Install Dependencies
-pip install -r requirements.txt
-3. Run Application
-python app.py
-4. Open in Browser
-http://localhost:5000
-🎯 Future Improvements
-Live classroom video streaming attendance
-Mobile app integration
-Emotion detection during attendance
-Advanced analytics dashboard
-Cloud deployment (AWS / Azure)
-👨‍💻 Author
-
-Megha Desai
-GitHub: MEGHADESAI5
-
-⭐ Impact
-
-SnapClass simplifies classroom management by combining:
-
-AI-powered automation
-Biometric authentication
-Real-time cloud tracking
