@@ -5,6 +5,12 @@ It enables fast, secure, and accurate student attendance tracking with minimal m
 
 ---
 
+🌐 Live Demo
+
+https://snapclass-main123.streamlit.app/
+
+
+
 ## 🚀 Overview
 
 SnapClass leverages advanced AI technologies to automate attendance using multiple biometric modalities:
